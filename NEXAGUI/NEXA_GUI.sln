@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NEXA_GUI", "NEXA_GUI.vcxproj", "{67693220-41E4-4C6C-A74B-228C317E5667}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDA7564B-6C57-4B0C-AD7C-FEBAF16D8598} = {EDA7564B-6C57-4B0C-AD7C-FEBAF16D8598}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoGenerator", "..\AutoGenerator\AutoGenerator.vcxproj", "{EDA7564B-6C57-4B0C-AD7C-FEBAF16D8598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67693220-41E4-4C6C-A74B-228C317E5667}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67693220-41E4-4C6C-A74B-228C317E5667}.Debug|Win32.Build.0 = Debug|Win32
+		{67693220-41E4-4C6C-A74B-228C317E5667}.Release|Win32.ActiveCfg = Release|Win32
+		{67693220-41E4-4C6C-A74B-228C317E5667}.Release|Win32.Build.0 = Release|Win32
+		{EDA7564B-6C57-4B0C-AD7C-FEBAF16D8598}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDA7564B-6C57-4B0C-AD7C-FEBAF16D8598}.Debug|Win32.Build.0 = Debug|Win32
+		{EDA7564B-6C57-4B0C-AD7C-FEBAF16D8598}.Release|Win32.ActiveCfg = Release|Win32
+		{EDA7564B-6C57-4B0C-AD7C-FEBAF16D8598}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
