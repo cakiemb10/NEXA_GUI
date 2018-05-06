@@ -1,17 +1,13 @@
 /* [%START%;%FileHeader%] */
 /***********************************************************************
 
-    ƒtƒ@ƒCƒ‹–¼: DGT_PvSymbolDef.h
+    ãƒ•ã‚¡ã‚¤ãƒ«å: DGT_PvSymbolDef.h
 
-    •\‘è      : DIALOGGENƒ‚ƒWƒ…[ƒ‹ “à•”defineéŒ¾ƒwƒbƒ_ƒtƒ@ƒCƒ‹
+    è¡¨é¡Œ      : DIALOGGENãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« å†…éƒ¨defineå®£è¨€ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ«
 
-    “à—e      : DIALOGGENƒ‚ƒWƒ…[ƒ‹ ‚Åg—p‚·‚éŠù’è’l‚ğéŒ¾‚·‚é
+    å†…å®¹      : DIALOGGENãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« ã§ä½¿ç”¨ã™ã‚‹æ—¢å®šå€¤ã‚’å®£è¨€ã™ã‚‹
 
-    “K—p‹@í  : PASMOƒ‚ƒWƒ…[ƒ‹ (ESSICMPB)
-
-    ƒo[ƒWƒ‡ƒ“: YYYY-MM-DD    ESSICMPB-V01.00.00  ì¬Ò‹L“ü        V‹Kì¬
-
-    (C)Copyright Toshiba Corporation 2015. All rights reserved.
+    é©ç”¨æ©Ÿç¨®  : PASMOãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« (ESSICMPB)
 
 ***********************************************************************/
 
@@ -20,7 +16,7 @@
 /* [%END  %;%FileHeader%] */
 
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;CheckInputValidation symbol] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;CheckInputValidation symbol] */
 #define DGT_GGD_CIV_PATH_OK                                         (0x0000)        /* Folder path is valid */
 #define DGT_GGD_CIV_SPEC_NULL                                       (0x0001)        /* Folder path is empty */
 #define DGT_GGD_CIV_SPEC_INVALID                                    (0x0002)        /* Folder path is invalid */
@@ -34,34 +30,34 @@
 #define DGT_GGD_CIV_OUT_NULL                                        (0x000a)        /* Folder path is empty */
 #define DGT_GGD_CIV_OUT_INVALID                                     (0x000b)        /* Folder path is invalid */
 #define DGT_GGD_CIV_OUT_TOO_LONG                                    (0x000c)        /* Folder path > 260 character */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;CheckInputValidation symbol] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;CheckInputValidation symbol] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;Mark symbol] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;Mark symbol] */
 #define DGT_SD_US_STATUS                                            (0x01)          /* Bit of updating status */
 #define DGT_SD_US_PERCENT                                           (0x02)          /* Bit of updating percent */
 #define DGT_SD_US_LOG                                               (0x04)          /* Bit of updating log */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;Mark symbol] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;Mark symbol] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;Mark symbol] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;Mark symbol] */
 #define DGT_CFW_WA_CREATE_AREA                                      ("// CREATE AREA HERE")/* Mark of creating area */
 #define DGT_CFW_WA_PROTOTYPE                                        ("// CREATE PROTOTYPE HERE")/* Mark of creating prototype */
 #define DGT_CFW_WA_FUNC_MAP                                         ("// CREATE FUNCTION MAPPING HERE")/* Mark of creating function mapping */
 #define DGT_CFW_WA_VCXPROJ                                          ("<ClCompile Include=\"AreaStore.cpp\" />")/* Mark of creating filter */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;Mark symbol] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;Mark symbol] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;CheckFilePath symbol] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;CheckFilePath symbol] */
 #define DGT_U_CFIP_PATH_OK                                          (0x0001)        /* Folder path is valid */
 #define DGT_U_CFIP_PATH_NULL                                        (0x0002)        /* Folder path is empty */
 #define DGT_U_CFIP_PATH_INVALID                                     (0x0003)        /* Folder path is invalid */
 #define DGT_U_CFIP_PATH_TOO_LONG                                    (0x0004)        /* Folder path > 218 character */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;CheckFilePath symbol] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;CheckFilePath symbol] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;CheckFolderPath symbol] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;CheckFolderPath symbol] */
 #define DGT_U_CFP_PATH_OK                                           (0x0001)        /* Folder path is valid */
 #define DGT_U_CFP_PATH_NULL                                         (0x0002)        /* Folder path is empty */
 #define DGT_U_CFP_PATH_INVALID                                      (0x0003)        /* Folder path is invalid */
 #define DGT_U_CFP_PATH_TOO_LONG                                     (0x0004)        /* Folder path > 218 character */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;CheckFolderPath symbol] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;CheckFolderPath symbol] */
 
 #endif /* DGT_PVSYMBOLDEF_H */
 
