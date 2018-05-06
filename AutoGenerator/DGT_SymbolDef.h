@@ -1,17 +1,15 @@
 /* [%START%;%FileHeader%] */
 /***********************************************************************
 
-    ƒtƒ@ƒCƒ‹–¼: DGT_SymbolDef.h
+    ãƒ•ã‚¡ã‚¤ãƒ«å: DGT_SymbolDef.h
 
-    •\‘è      : DIALOGGENƒ‚ƒWƒ…[ƒ‹ defineéŒ¾ƒwƒbƒ_ƒtƒ@ƒCƒ‹
+    è¡¨é¡Œ      : DIALOGGENãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« defineå®£è¨€ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ«
 
-    “à—e      : DIALOGGENƒ‚ƒWƒ…[ƒ‹ ‚Åg—p‚·‚éŠù’è’l‚ğéŒ¾‚·‚é
+    å†…å®¹      : DIALOGGENãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« ã§ä½¿ç”¨ã™ã‚‹æ—¢å®šå€¤ã‚’å®£è¨€ã™ã‚‹
 
-    “K—p‹@í  : PASMOƒ‚ƒWƒ…[ƒ‹ (ESSICMPB)
+    é©ç”¨æ©Ÿç¨®  : PASMOãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« (ESSICMPB)
 
-    ƒo[ƒWƒ‡ƒ“: YYYY-MM-DD    ESSICMPB-V01.00.00  ì¬Ò‹L“ü        V‹Kì¬
-
-    (C)Copyright Toshiba Corporation 2015. All rights reserved.
+    ãƒãƒ¼ã‚¸ãƒ§ãƒ³: YYYY-MM-DD    ESSICMPB-V01.00.00  ä½œæˆè€…è¨˜å…¥        æ–°è¦ä½œæˆ
 
 ***********************************************************************/
 
@@ -20,19 +18,19 @@
 /* [%END  %;%FileHeader%] */
 
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;ŠÖ”–ß‚è’l] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;é–¢æ•°æˆ»ã‚Šå€¤] */
 #define DGT_RET_OK                                                  (TRUE)          /* Normal end */
 #define DGT_RET_ERR                                                 (FALSE)         /* Abnormal end */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;ŠÖ”–ß‚è’l] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;é–¢æ•°æˆ»ã‚Šå€¤] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;Zero values] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;Zero values] */
 #define DGT_VALUE_ZERO_DWORD                                        (0x00000000)    /*  */
 #define DGT_VALUE_ZERO_WORD                                         (0x0000)        /*  */
 #define DGT_VALUE_ZERO_BYTE                                         (0x00)          /*  */
 #define DGT_VALUE_ZERO_LONG                                         (0x00000000)    /*  */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;Zero values] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;Zero values] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;Common symbol] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;Common symbol] */
 
 #define TEMPLATE_FOLDER                                             ("Template Project")    /* Template project folder name */
 #define FMT_LIST_FNAME                                              ("fmt_list.csv")/* format list CSV file */
@@ -47,20 +45,20 @@
 #define LIMIT_ITEM_NUM                                              (2)             /* the numer of item in limitation CSV list */
 #define INIT_ITEM_NUM                                               (2)             /* the numer of item in init CSV list */
 #define CATALOG_ITEM_NUM                                            (8)             /* the numer of item in catalog CSV list */
-#define SHEET_CREATATION_LIST                                       ("Ÿì¬ˆê——")  /* creation list sheet name */
-#define SHEET_MASTER                                                ("Ÿƒ}ƒXƒ^")    /* master sheet name */
+#define SHEET_CREATATION_LIST                                       ("â—†ä½œæˆä¸€è¦§")  /* creation list sheet name */
+#define SHEET_MASTER                                                ("â—†ãƒã‚¹ã‚¿")    /* master sheet name */
 #define MASTER_START_ROW                                            (2)             /* Start row of master sheet */
 #define MASTER_START_COL                                            (8)             /* column to read Japannse name */
 #define MASTER_END_COL                                              (9)             /* column to read English name */
 #define NOT_FOUND                                                   (-1)            /* Set not found value */
 #define LIST_START_ROW                                              (3)             /* start row of creation list sheet */
-#define LIST_START_COL                                              (2)             /* start column to read data in [ì¬ˆê——] sheet */
-#define LIST_END_COL                                                (7)             /* end column to read data in [ì¬ˆê——] sheet */
-#define LIST_NO_COL                                                 (0)             /* [No] column in [ì¬ˆê——] sheet */
+#define LIST_START_COL                                              (2)             /* start column to read data in [ä½œæˆä¸€è¦§] sheet */
+#define LIST_END_COL                                                (7)             /* end column to read data in [ä½œæˆä¸€è¦§] sheet */
+#define LIST_NO_COL                                                 (0)             /* [No] column in [ä½œæˆä¸€è¦§] sheet */
 #define LIST_SHNAME_COL                                             (2)             /* Column that cotain list of screen sheet name */
 #define LIST_OUT_COL                                                (1)             /* Column that contain list of output file */
-#define SUBJECT_MARU                                                ("›")          /* Corresponding "›" value */
-#define SUBJECT_BATSU                                               ("~")          /* Corresponding "~" value */
+#define SUBJECT_MARU                                                ("â—‹")          /* Corresponding "â—‹" value */
+#define SUBJECT_BATSU                                               ("Ã—")          /* Corresponding "Ã—" value */
 #define TITLE_COL                                                   (0)             /* Title column  */
 #define AREA_MODE_COL                                               (1)             /* To get area mode in header info */
 #define BGCOLOR_COL                                                 (2)             /* To get area mode in header info */
@@ -84,40 +82,40 @@
 #define DATA_START_COL                                              (1)             /* Start column to read item data */
 #define DATA_END_COL                                                (29)            /* End column to read item data */
 #define NO_COL                                                      (0)             /* [No] column number */
-#define KOMOKU_COL                                                  (1)             /* [€–Ú] column number */
-#define DISPSTR_COL                                                 (2)             /* [‰Šú•\¦] column number */
-#define GAIKAN_COL                                                  (3)             /* [“ú–{Œê–¼] column number */
-#define DOSA_COL                                                    (4)             /* [ó‘Ô(‰Šúó‘Ô)] column number */
-#define HIDDEN_COL                                                  (5)             /* [•\¦F›^”ñ•\¦F~(‰Šúó‘Ô)] 
+#define KOMOKU_COL                                                  (1)             /* [é …ç›®] column number */
+#define DISPSTR_COL                                                 (2)             /* [åˆæœŸè¡¨ç¤º] column number */
+#define GAIKAN_COL                                                  (3)             /* [æ—¥æœ¬èªå] column number */
+#define DOSA_COL                                                    (4)             /* [çŠ¶æ…‹(åˆæœŸçŠ¶æ…‹)] column number */
+#define HIDDEN_COL                                                  (5)             /* [è¡¨ç¤ºï¼šâ—‹ï¼éè¡¨ç¤ºï¼šÃ—(åˆæœŸçŠ¶æ…‹)] 
 column number */
-#define DISABLE_COL                                                 (6)             /* [‰Ÿ‰º‰ÂF›^‰Ÿ‰º•s‰ÂF~(‰Šúó‘Ô)] column number */
-#define HEIGHT_COL                                                  (7)             /* [c‚Ì’·‚³] column number */
-#define WIDTH_COL                                                   (8)             /* [‰¡‚Ì’·‚³] column number */
-#define FONTSIZE_COL                                                (9)             /* [ƒtƒHƒ“ƒgƒTƒCƒY] column number */
-#define ZOOMSIZE_COL                                                (10)            /* [ƒtƒHƒ“ƒgk¬—¦] column number */
-#define ICHI_COL                                                    (11)            /* [”z’uêŠ] column number */
-#define INITDESIGN_COL                                              (12)            /* [‰ŠúƒJƒ^ƒƒO“ú–{Œê–¼] column number */
-#define INITSTR_COL                                                 (13)            /* [•\¦•¶š] column number */
-#define DEFAULTAPP_COL                                              (14)            /* [‰Šú“K—pF›^‰Šú”ñ“K—pF~] column number */
-#define NULLSTRAPP_COL                                              (15)            /* [‹ó•¶š“K—pF›^‹ó•¶š”ñ“K—pF~] column number */
-#define INPUTFMT_COL                                                (16)            /* [“ü—ÍƒtƒH[ƒ}ƒbƒg] column number */
-#define CURUMU_COL                                                  (17)            /* [“ü—Íó•t—L–³] column number */
-#define MINLENGTH_COL                                               (18)            /* [Å­Œ…”] column number */
-#define MAXLENGTH_COL                                               (19)            /* [Å‘åŒ…”] column number */
-#define INPUT_OEDER_COL                                             (20)            /* [“ü—Í‡˜(ƒ^ƒu‘JˆÚ] column number */
-#define ERR_DISP_ICHI_COL                                           (21)            /* [ƒGƒ‰[•\¦ˆÊ’u] column number */
-#define INPUT_LIMIT_COL                                             (22)            /* [“ü—Í§ŒÀ] column number */
-#define TAGID_COL                                                       (24)            /* [ƒ^ƒO‚h‚c–¼] column number */
-#define SENDSTR1_COL                                                (25)            /* [‘—•t•¶š—ñ] column number */
-#define ALTERNATE_TAGID_COL                                    (26)            /* [ƒIƒ‹ƒ^ƒl[ƒg®–t—pƒ^ƒO–¼‚Q] column number */
-#define SENDSTR2_COL                                                (27)            /* [‘—•t•¶š—ñ‚Q] column number */
-#define EKIBTN_ID_COL                                                 (28)           // ‰w–tID@ˆÊ’u
-#define TAB_AREA                                                    ("yƒ^ƒuƒGƒŠƒAz")/* To check item is [Tab area] or not */
-#define EKIBTN_FMT                                                  ("‰w–ti¼•j")/* Eki button value */
-#define NASHI_MODE                                                  ("|")          /* None mode */
+#define DISABLE_COL                                                 (6)             /* [æŠ¼ä¸‹å¯ï¼šâ—‹ï¼æŠ¼ä¸‹ä¸å¯ï¼šÃ—(åˆæœŸçŠ¶æ…‹)] column number */
+#define HEIGHT_COL                                                  (7)             /* [ç¸¦ã®é•·ã•] column number */
+#define WIDTH_COL                                                   (8)             /* [æ¨ªã®é•·ã•] column number */
+#define FONTSIZE_COL                                                (9)             /* [ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚º] column number */
+#define ZOOMSIZE_COL                                                (10)            /* [ãƒ•ã‚©ãƒ³ãƒˆç¸®å°ç‡] column number */
+#define ICHI_COL                                                    (11)            /* [é…ç½®å ´æ‰€] column number */
+#define INITDESIGN_COL                                              (12)            /* [åˆæœŸã‚«ã‚¿ãƒ­ã‚°æ—¥æœ¬èªå] column number */
+#define INITSTR_COL                                                 (13)            /* [è¡¨ç¤ºæ–‡å­—] column number */
+#define DEFAULTAPP_COL                                              (14)            /* [åˆæœŸé©ç”¨ï¼šâ—‹ï¼åˆæœŸéé©ç”¨ï¼šÃ—] column number */
+#define NULLSTRAPP_COL                                              (15)            /* [ç©ºæ–‡å­—é©ç”¨ï¼šâ—‹ï¼ç©ºæ–‡å­—éé©ç”¨ï¼šÃ—] column number */
+#define INPUTFMT_COL                                                (16)            /* [å…¥åŠ›ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆ] column number */
+#define CURUMU_COL                                                  (17)            /* [å…¥åŠ›å—ä»˜æœ‰ç„¡] column number */
+#define MINLENGTH_COL                                               (18)            /* [æœ€å°‘æ¡æ•°] column number */
+#define MAXLENGTH_COL                                               (19)            /* [æœ€å¤§æ¡æ•°] column number */
+#define INPUT_OEDER_COL                                             (20)            /* [å…¥åŠ›é †åº(ã‚¿ãƒ–é·ç§»] column number */
+#define ERR_DISP_ICHI_COL                                           (21)            /* [ã‚¨ãƒ©ãƒ¼è¡¨ç¤ºä½ç½®] column number */
+#define INPUT_LIMIT_COL                                             (22)            /* [å…¥åŠ›åˆ¶é™] column number */
+#define TAGID_COL                                                       (24)            /* [ã‚¿ã‚°ï¼©ï¼¤å] column number */
+#define SENDSTR1_COL                                                (25)            /* [é€ä»˜æ–‡å­—åˆ—] column number */
+#define ALTERNATE_TAGID_COL                                    (26)            /* [ã‚ªãƒ«ã‚¿ãƒãƒ¼ãƒˆå¼é‡¦ç”¨ã‚¿ã‚°åï¼’] column number */
+#define SENDSTR2_COL                                                (27)            /* [é€ä»˜æ–‡å­—åˆ—ï¼’] column number */
+#define EKIBTN_ID_COL                                                 (28)           // é§…é‡¦IDã€€ä½ç½®
+#define TAB_AREA                                                    ("ã€ã‚¿ãƒ–ã‚¨ãƒªã‚¢ã€‘")/* To check item is [Tab area] or not */
+#define EKIBTN_FMT                                                  ("é§…é‡¦ï¼ˆè¥¿æ­¦ï¼‰")/* Eki button value */
+#define NASHI_MODE                                                  ("ï¼")          /* None mode */
 #define NASHI_MODE_HALF                                         ("-")
-#define NASHI_MODE_JP                                             ("y–³‚µz")
-#define FMT_NAME_INPUT_START_BTN                                    ("y“ü—ÍŠJn—p–tz")/* To check format when set click branch mode */
+#define NASHI_MODE_JP                                             ("ã€ç„¡ã—ã€‘")
+#define FMT_NAME_INPUT_START_BTN                                    ("ã€å…¥åŠ›é–‹å§‹ç”¨é‡¦ã€‘")/* To check format when set click branch mode */
 #define MAX_STRING_CHARACTERS                                       (218)           /* Max file path length */
 #define DGT_MSG                                                     (WM_USER + 1)   /* Private message*/
 #define EXCEL_REF                                                   ("#REF!")           /* Unreferences */
@@ -134,20 +132,20 @@ column number */
 #define CONSTS_BTN_YOKO                                             (0)
 #define TAG_NAME_LIST_NUM                                           (12)
 #define DELIMITER   ("<>")
-#define CONTENA  ("ƒRƒ“ƒeƒi")
-#define SEINENGAPPI ("¶”NŒ“úi‚Q’i—pj")
- #define MSGAREA  ("ƒƒbƒZ[ƒW")
-#define IMG_STRETCH ("‰æ‘œiƒXƒgƒŒƒbƒ`j")
- #define ICON  ("ƒAƒCƒRƒ“")
-#define KOMOKU_BOOKING_START  ("yŠJnz")
-#define KOMOKU_BOOKING_END     ("yI—¹z")
+#define CONTENA  ("ã‚³ãƒ³ãƒ†ãƒŠ")
+#define SEINENGAPPI ("ç”Ÿå¹´æœˆæ—¥ï¼ˆï¼’æ®µç”¨ï¼‰")
+ #define MSGAREA  ("ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸")
+#define IMG_STRETCH ("ç”»åƒï¼ˆã‚¹ãƒˆãƒ¬ãƒƒãƒï¼‰")
+ #define ICON  ("ã‚¢ã‚¤ã‚³ãƒ³")
+#define KOMOKU_BOOKING_START  ("ã€é–‹å§‹ã€‘")
+#define KOMOKU_BOOKING_END     ("ã€çµ‚äº†ã€‘")
 #define GRP_EKIBTN  ("ekibtn")
 #define GRP_KEIYUBTN  ("Keiyu")
 #define SPEC_GAIKAN_NAME   ("@@")
 #define KOMOKU_BOOKING_STRCOLOR  ("str_")
 #define KOMOKU_BOOKING_IMG   ("img")
 #define KOMOKU_BOOKING_LINE  ("line")
-#define ZOKUSEI_PRE "Œ©o‚µ(“™ŠÔŠu)"
+#define ZOKUSEI_PRE "è¦‹å‡ºã—(ç­‰é–“éš”)"
 #define HR_BOTTOM 1
 #define HR_MID    2
 #define ITEM_LEFT                           (1)
@@ -158,38 +156,38 @@ column number */
 #define ITEM_RIGHT_MARGIN                   (2)
 #define ITEM_BOTTOM_MARGIN                  (3)
 
-#define PAGE_AREA               ("yƒy[ƒWƒGƒŠƒAz")
+#define PAGE_AREA               ("ã€ãƒšãƒ¼ã‚¸ã‚¨ãƒªã‚¢ã€‘")
 #define TAGID_PAGE_AREA     ("_area")
-#define CONTENA                   ("ƒRƒ“ƒeƒi")
-#define BTN_PAGE_KIRIKAE     ("–ti•ÅØ‘Ö—p)")
-#define PASSWORD_MODE       ("ƒeƒ“ƒL[FƒpƒXƒ[ƒh")
-#define TAGID_HIDDEN        ("_“ü—ÍŠi”[")
+#define CONTENA                   ("ã‚³ãƒ³ãƒ†ãƒŠ")
+#define BTN_PAGE_KIRIKAE     ("é‡¦ï¼ˆé åˆ‡æ›¿ç”¨)")
+#define PASSWORD_MODE       ("ãƒ†ãƒ³ã‚­ãƒ¼ï¼šãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰")
+#define TAGID_HIDDEN        ("_å…¥åŠ›æ ¼ç´")
 
 
 
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;Common symbol] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;Common symbol] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;Request type] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;Request type] */
 #define DGT_NOTIFY_INPUT_VALID                                      (0x01)          /* Notify input valid */
 #define DGT_NOTIFY_UPDATE_STATUS                                    (0x02)          /* Notify main dialog update status */
 #define DGT_NOTIFY_ERROR                                            (0x03)          /* Notify error */
 #define DGT_NOTIFY_EXIT                                             (0x04)          /* Notify user click [Exit] on progress dialog*/
 #define DGT_NOTIFY_COMPLETE                                         (0x05)          /* Notify working process is completed*/
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;Request type] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;Request type] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;ŠÖ”–ß‚è’l] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;é–¢æ•°æˆ»ã‚Šå€¤] */
 #define GUI_RET_OK                                                  (0)             /* Normal end */
 #define GUI_RET_ERR                                                 (-1)            /* Abnormal end */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;ŠÖ”–ß‚è’l] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;é–¢æ•°æˆ»ã‚Šå€¤] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;Zero values] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;Zero values] */
 #define GUI_VALUE_ZERO_DWORD                                        (0x00000000)    /*  */
 #define GUI_VALUE_ZERO_WORD                                         (0x0000)        /*  */
 #define GUI_VALUE_ZERO_BYTE                                         (0x00)          /*  */
 #define GUI_VALUE_ZERO_LONG                                         (0x00000000)    /*  */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;Zero values] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;Zero values] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;Common symbol] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;Common symbol] */
 #define CLASS_CCUSTOM_BTN                                           ("class CCustomBtn")/* Class CCustomBtn */
 #define CLASS_RICH_LABEL                                            ("class CRichLabel")/* Class CRichLabel */
 #define INDICATOR_AREA                                              ("sts_indication")/*  */
@@ -430,11 +428,11 @@ column number */
 #define HOLIDAY_SPLIT                                               ('_')           /*  */
 #define TAG_ID_SPLIT                                                ('_')           /*  */
 #define UNDER_SCORE_SPLIT                                           ('_')           /*  */
-#define IKKATSU_DATA_SPLIT                                          ('C')          /*  */
+#define IKKATSU_DATA_SPLIT                                          ('ï¼Œ')          /*  */
 #define ALT_BUTTON_AUTO_TEXT_SPLIT                                  ('?')           /*  */
-#define CSS_CLASS_NOTHING                                           ('|')          /*  */
-#define FORMAT_INPUT_ITEM                                           ('¢')          /*  */
-#define CHARACTER_SPACE                                             ('@')          /*  */
+#define CSS_CLASS_NOTHING                                           ('ï¼')          /*  */
+#define FORMAT_INPUT_ITEM                                           ('â–³')          /*  */
+#define CHARACTER_SPACE                                             ('ã€€')          /*  */
 #define CURSOR_IMAGE_MARGIN_CHARACTER                               (1)             /*  */
 #define PIXEL                                                       ('px')          /*  */
 #define DISP_CONTROL_ENTIRE_ENABLE                                  ('entire_display')/*  */
@@ -442,15 +440,15 @@ column number */
 #define SPEC_ASSIGN_CLASS                                           ('@')           /*  */
 #define UNDERBAR_REPLACE_STR                                        ('#')           /*  */
 #define TAG_ID_NAME_INPUT_PASS                                      ('_Hidden')     /*  */
-#define DISP_PASS_CHARACTER                                         ('–')          /*  */
+#define DISP_PASS_CHARACTER                                         ('ï¼Š')          /*  */
 #define CALENDAR_DISP_NO_LIMIT_START_DATE                           ('00000000')    /*  */
 #define CALENDAR_DISP_NO_LIMIT_END_DATE                             ('99999999')    /*  */
 #define CALENDAR_DISP_NO_LIMIT_YEAR_RANGE_START                     (2)             /*  */
 #define CALENDAR_DISP_NO_LIMIT_YEAR_RANGE_END                       (2)             /*  */
 #define CALENDAR_DISP_TYPE_CALENDAR                                 ('calendar')    /*  */
 #define CALENDAR_DISP_TYPE_KIKAN                                    ('kikan')       /*  */
-#define INPUT_LENGTH_NASHI_MODE                                     ('|')          /*  */
-#define INPUT_LENGTH_EMPTY_OR_ALL                                   ('Ÿ')          /*  */
+#define INPUT_LENGTH_NASHI_MODE                                     ('ï¼')          /*  */
+#define INPUT_LENGTH_EMPTY_OR_ALL                                   ('â—†')          /*  */
 #define INPUT_MAX_LENGTH_LIMIT                                      (999)           /*  */
 #define PECULIAR_PROC_GAIKAN                                        ('@@')          /*  */
 #define HEIGHT_CLASS_H                                              ('h')           /*  */
@@ -464,9 +462,9 @@ column number */
 #define DATA_AUTOMK_INI_FNME                                        ("Data_AutoMk_Tool.ini") /* Setting file name */
 #define DATA_INI_DLGBASE_SECTION                                    ("AUTOMK_DIALOGBASE_CONTENTS") /* Setting file name */
 
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;Common symbol] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;Common symbol] */
 
-/* [%START%;%ƒVƒ“ƒ{ƒ‹–¼%;Common symbol] */
+/* [%START%;%ã‚·ãƒ³ãƒœãƒ«å%;Common symbol] */
 #define INDICATOR_AREA                                              ("sts_indication")/*  */
 #define BUSSINESS_AREA                                              ("gyomu_annai") /*  */
 #define CONST_BTN_AREA                                              ("const_btn")   /*  */
@@ -702,11 +700,11 @@ column number */
 #define HOLIDAY_SPLIT                                               ('_')           /*  */
 #define TAG_ID_SPLIT                                                ('_')           /*  */
 #define UNDER_SCORE_SPLIT                                           ('_')           /*  */
-#define IKKATSU_DATA_SPLIT                                          ('C')          /*  */
+#define IKKATSU_DATA_SPLIT                                          ('ï¼Œ')          /*  */
 #define ALT_BUTTON_AUTO_TEXT_SPLIT                                  ('?')           /*  */
-#define CSS_CLASS_NOTHING                                           ('|')          /*  */
-#define FORMAT_INPUT_ITEM                                           ('¢')          /*  */
-#define CHARACTER_SPACE                                             ('@')          /*  */
+#define CSS_CLASS_NOTHING                                           ('ï¼')          /*  */
+#define FORMAT_INPUT_ITEM                                           ('â–³')          /*  */
+#define CHARACTER_SPACE                                             ('ã€€')          /*  */
 #define CURSOR_IMAGE_MARGIN_CHARACTER                               (1)             /*  */
 #define PIXEL                                                       ('px')          /*  */
 #define DISP_CONTROL_ENTIRE_ENABLE                                  ('entire_display')/*  */
@@ -714,22 +712,22 @@ column number */
 #define SPEC_ASSIGN_CLASS                                           ('@')           /*  */
 #define UNDERBAR_REPLACE_STR                                        ('#')           /*  */
 #define TAG_ID_NAME_INPUT_PASS                                      ('_Hidden')     /*  */
-#define DISP_PASS_CHARACTER                                         ('–')          /*  */
+#define DISP_PASS_CHARACTER                                         ('ï¼Š')          /*  */
 #define CALENDAR_DISP_NO_LIMIT_START_DATE                           ('00000000')    /*  */
 #define CALENDAR_DISP_NO_LIMIT_END_DATE                             ('99999999')    /*  */
 #define CALENDAR_DISP_NO_LIMIT_YEAR_RANGE_START                     (2)             /*  */
 #define CALENDAR_DISP_NO_LIMIT_YEAR_RANGE_END                       (2)             /*  */
 #define CALENDAR_DISP_TYPE_CALENDAR                                 ('calendar')    /*  */
 #define CALENDAR_DISP_TYPE_KIKAN                                    ('kikan')       /*  */
-#define INPUT_LENGTH_NASHI_MODE                                     ('|')          /*  */
-#define INPUT_LENGTH_EMPTY_OR_ALL                                   ('Ÿ')          /*  */
+#define INPUT_LENGTH_NASHI_MODE                                     ('ï¼')          /*  */
+#define INPUT_LENGTH_EMPTY_OR_ALL                                   ('â—†')          /*  */
 #define INPUT_MAX_LENGTH_LIMIT                                      (999)           /*  */
 #define PECULIAR_PROC_GAIKAN                                        ('@@')          /*  */
 #define HEIGHT_CLASS_H                                              ('h')           /*  */
 #define HEIGHT_CLASS_HL                                             ('hl')          /*  */
 #define HEIGHT_WIDTH_CLASS_GRID                                     ('grid')        /*  */
 #define TAG_ID_NAME_FUKURO_TAB                                      ('Fukuro_Tab')  /*  */
-/* [%END  %;%ƒVƒ“ƒ{ƒ‹–¼%;Common symbol] */
+/* [%END  %;%ã‚·ãƒ³ãƒœãƒ«å%;Common symbol] */
 
 
 #endif /* DGT_SYMBOLDEF_H */
