@@ -1,17 +1,13 @@
 /* [%START%;%FileHeader%] */
 /***********************************************************************
 
-    ƒtƒ@ƒCƒ‹–¼: DGT_PvErrCode.h
+    ãƒ•ã‚¡ã‚¤ãƒ«å: DGT_PvErrCode.h
 
-    •\‘è      : DIALOGGENƒ‚ƒWƒ…[ƒ‹“à•”ƒGƒ‰[ƒR[ƒhéŒ¾ƒwƒbƒ_ƒtƒ@ƒCƒ‹
+    è¡¨é¡Œ      : DIALOGGENãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«å†…éƒ¨ã‚¨ãƒ©ãƒ¼ã‚³ãƒ¼ãƒ‰å®£è¨€ãƒ˜ãƒƒãƒ€ãƒ•ã‚¡ã‚¤ãƒ«
 
-    “à—e      : DIALOGGENƒ‚ƒWƒ…[ƒ‹‚ÅŽg—p‚·‚é“à•”ƒGƒ‰[ƒR[ƒh‚ðéŒ¾‚·‚é
+    å†…å®¹      : DIALOGGENãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã§ä½¿ç”¨ã™ã‚‹å†…éƒ¨ã‚¨ãƒ©ãƒ¼ã‚³ãƒ¼ãƒ‰ã‚’å®£è¨€ã™ã‚‹
 
-    “K—p‹@Ží  : PASMOƒ‚ƒWƒ…[ƒ‹ (ESSICMPB)
-
-    ƒo[ƒWƒ‡ƒ“: YYYY-MM-DD    ESSICMPB-V01.00.00  ì¬ŽÒ‹L“ü        V‹Kì¬
-
-    (C)Copyright Toshiba Corporation 2015. All rights reserved.
+    é©ç”¨æ©Ÿç¨®  : PASMOãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ« (ESSICMPB)
 
 ***********************************************************************/
 
